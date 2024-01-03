@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<hmtl lang='pt-br'>
+<head>
+<title>Facebook</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="principal"><!--CERTO-->
+        <div class="primeira"><!--CERTO-->
+            <h2> facebook</h2><!--CERTO-->
+            <p> O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p><!--CERTO-->
+        </div><!--CERTO-->
+        <div class="segunda"><!--ERRADO-->
+            <form><!--ERRADO-->
+                <input type='text' placeholder=" Email ou Telefone"><!--CERTO-->
+                <input type="password" placeholder=" Senha"><!--CERTO-->
+                <button class="enter">Enter</button><!--CERTO-->
+                <a href="#">Esqueceu a senha?</a><!--CERTO-->
+                <button class="criar" >Criar nova conta</button><!--CERTO-->
+            </form>
+        </div>
+
+        <!------------------------OUTRA FORMA DE FAZER O CODIGO ACIMA----------------------------------------
+            EXPLICAÇÃO: tanto o "form" quanto a "div" fazem a mesma formatação,
+                 porem o "form" e usado para formulario.
+            Em vez de criar uma "div" em cima do "form", 
+                voce pode usar o proprio "form" como uma div.
+
+
+            EXEMPLO:
+            <form class="segunda">
+                <input type='text' placeholder=" Email ou Telefone">
+                <input type="password" placeholder=" Senha">
+                <button class="enter">Enter</button>
+                <a href="#">Esqueceu a senha?</a>
+                <button class="criar">Criar nova conta</button>
+            </form>
+        -->
+    </div>
+    <footer>
+        <p>@Eduardo Facebook 2022</p>
+    </footer>
+</body>
+</html>

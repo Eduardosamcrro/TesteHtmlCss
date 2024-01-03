@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:darkgray;
+    
+}
+h2{
+    color:blue;
+    font-size:80px;
+    display:block;
+    max-width: 100%;
+
+}
+.principal{
+    padding-top:100px;
+    padding-bottom:180px;
+    max-width: 980px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 1.5fr 1fr;
+
+}
+.primeira{
+display:block;
+max-width:100%;
+margin:-20px;
+height: 106px;
+font-size:24px;
+}
+form{
+    padding:15px;
+     background:white;
+     border-radius:8px;
+     margin-top:15px;
+}
+form a, input, button{
+    display:block;
+    margin-top:15px;
+}
+input{
+    padding:16px;
+    border-radius:5px;
+    display:block;
+    border:1px solid #ddd;
+    width:90%;
+}
+.enter{
+    color:white;
+    background: blue;
+    width:100%;
+    border:none;
+    border-radius:6px;
+    padding:16px;
+    font-size:19px;
+    margin-top: 20px;
+}
+.criar{
+    color:white;
+    background:lime;
+    border:none;
+    border-radius: 6px;
+    padding:16px;
+    font-size:16px;
+    margin:0 auto;
+    margin-top:15px;
+}
+a{
+    text-align: center;
+    text-decoration:none;
+    color: black;
+}
+footer{
+    text-align: center;
+    background:gray;
+    height:200px;
+    font-size:14px;
+   
+}
